@@ -1,5 +1,4 @@
 # Rainery
-https://rainery.herokuapp.com/
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -7,7 +6,7 @@ https://rainery.herokuapp.com/
 <br />
 <p align="center">
   <a href="https://ibb.co/sC0TMQV">
-    <img src="https://heliocentrix.co.uk/wp-content/uploads/2020/04/microsoft-teams-logo-png_480-480.png" alt="Logo" width="120" height="120">
+    <img src="/static/logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">Rainery</h3>
@@ -16,7 +15,7 @@ https://rainery.herokuapp.com/
     Want to know if it will rain tommorrow? Come on, let's predict it!
     <br />
     <br />
-    <a href="https://teams-chatapp.netlify.app/">View Demo</a>
+    <a href="https://rainery.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/Himank-J/">Report Bug</a>
     ·
@@ -38,9 +37,9 @@ https://rainery.herokuapp.com/
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![login-screenshot](images/login.png)
-![chat1-screenshot](images/chat_interface.png)
-![chat1-screenshot](images/chat_interface2.png)
+![login-screenshot](static/home.png)
+![chat1-screenshot](static/form.png)
+![chat1-screenshot](static/output.png)
 <br />
 Microsoft Teams is one of the most popular business communication platform being used all over the world. With the pandemic over our heads, Teams platform has become the new classroom for many school/college students. One of the great features of the Teams app is the chat interface it provides.<br /> **This project is an implementation of the microsoft teams chat feature where users can send messages to other individuals or a group.**<br/>
 ### **Features -**<br />
