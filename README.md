@@ -103,7 +103,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Himank Jain - [@callme__hj](https://instagram.com/callme__hj) - My Instagram <br />
 Himank Jain - [himank-jain](https://www.linkedin.com/in/himank-jain/) - My LinkedIn  <br />
-Project Link: [https://github.com/Himank-J/teams_chatapp](https://github.com/Himank-J/Rainery)
+Project Link: [https://github.com/Himank-J/Rainery](https://github.com/Himank-J/Rainery)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
