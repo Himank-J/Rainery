@@ -29,7 +29,6 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Available Scripts](#available-scripts)
 * [Purpose](#purpose)
 * [Contributing](#contributing)
 * [License](#license)
@@ -41,105 +40,48 @@
 ![chat1-screenshot](static/form.png)
 ![chat1-screenshot](static/output.png)
 <br />
-Microsoft Teams is one of the most popular business communication platform being used all over the world. With the pandemic over our heads, Teams platform has become the new classroom for many school/college students. One of the great features of the Teams app is the chat interface it provides.<br /> **This project is an implementation of the microsoft teams chat feature where users can send messages to other individuals or a group.**<br/>
+Rainery is a platform that allows users to predict whether it will rain tommorrow or not. It makes use of a machine learning model to process user input data and make prediction on it.<br/>
 ### **Features -**<br />
-* Users can send many to each other or on a group
-* Users have the ability to send images on chat
-* Admin can add other members to a group
-* A small scaled user profile picture appears below seen messages (refer below screenshots)
-* Small message tone can be heard when user sends a message 
-
+* Users can predict if it will rain tommorrow
+* Easy to use application - only fill up the form and prediction will be made.
+* Due to large number of features considered, obtained results are accurate.
+* Creative result generation 
 
 ### Built With
 This application is built with love, dedication, coffee and:
-* [React JS](https://reactjs.org/)
-* [Chat engine](https://chatengine.io/) <br />
-React is a javascript library used for building user interface and Chat engine is a service which offers API for implementing chat features in any application. Chat engine is used to take care of backend services such as a user profile creation or creating an admin or a group. Services of chat engine are incorporated into react using API provided by chat engine.<br />
-App url - https://teams-chatapp.netlify.app/  <br/>
-You can use following details for login and sample testing - <br />
-**username-** Himank_J, **password-** himank09 <br/>
-**username-** Gurman02, **password-** gurman
+* Python Libraries
+  * Pandas
+  * Numpy
+  * Seaborn
+  * Matplotlib
+  * Scikit-Learn
+  * CatBoost
+  * Imb-learn
+  * Flask 
+* Html/CSS
+* 
+App url - https://rainery.herokuapp.com/  <br/>
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Getting Started 
+* First create a virtual environment by using this command:
+* conda create -n myenv python=3.6
+* Activate the environment using the below command:
+* conda activate myenv
+* Then install all the packages by using the following command
+* pip install -r requirements.txt
+* Now for the final step. Run the app
+* python app.py
 
 
 <!-- Purpose -->
 ## Purpose 
-The purpose of this project is to develop a chat application. This project is great learning step for anyone getting started with react and understanding how different features of react are implemented.
-Perosnally this project helped me - 
-* Master react components
-* understand API calls using axios
-* understand use of external servies like Chat engine in react using react-chat-engine library  
+<p style='text-align: justify;'>Rainfall Prediction is the application of science and technology to predict the amount of rainfall over a 
+region. It is important to exactly determine the rainfall for effective use of water resources, crop 
+productivity and pre-planning of water structures. Rainfall prediction is important as heavy rainfall can 
+lead to many disasters. The prediction helps people to take preventive measures and moreover the 
+prediction should be accurate. 
+The aim of this project is to analyse historical data related to rainfall and use that data to develop a 
+model using machine learning algorithm and that can predict whether it will rain tomorrow or not.</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -160,9 +102,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Himank Jain - [@itsme_himank09](https://instagram.com/itsme_himank09) - My Instagram <br />
+Himank Jain - [@itsme_himank09](https://instagram.com/callme__hj) - My Instagram <br />
 Himank Jain - [himank-jain](https://www.linkedin.com/in/himank-jain/) - My LinkedIn  <br />
-Project Link: [https://github.com/Himank-J/teams_chatapp](https://github.com/Himank-J/teams_chatapp)
+Project Link: [https://github.com/Himank-J/teams_chatapp](https://github.com/Himank-J/Rainery)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
