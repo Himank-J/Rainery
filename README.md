@@ -1,4 +1,3 @@
-# Rainery
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -9,7 +8,7 @@
     <img src="/static/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">Rainery</h3>
+  <h1 align="center">Rainery</h1>
 
   <p align="center">
     Want to know if it will rain tommorrow? Come on, let's predict it!
@@ -102,7 +101,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Himank Jain - [@itsme_himank09](https://instagram.com/callme__hj) - My Instagram <br />
+Himank Jain - [@callme__hj](https://instagram.com/callme__hj) - My Instagram <br />
 Himank Jain - [himank-jain](https://www.linkedin.com/in/himank-jain/) - My LinkedIn  <br />
 Project Link: [https://github.com/Himank-J/teams_chatapp](https://github.com/Himank-J/Rainery)
 
