@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://ibb.co/sC0TMQV">
-    <img src="/static/logo.png" alt="Logo" width="120" height="120">
+    <img src="/static/logo.png" alt="Logo" width="120" height="160">
   </a>
 
   <h1 align="center">Rainery</h1>
